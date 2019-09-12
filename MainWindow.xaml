@@ -1,0 +1,19 @@
+﻿<Window x:Class="XyrilleAnnMamalateoWeatherPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XyrilleAnnMamalateoWeatherPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Summary:" Name="lblSummary" HorizontalAlignment="Left" Margin="25,24,0,0" VerticalAlignment="Top"  Width="516" Height="59" FontSize="36"/>
+        <Button x:Name="btnGetWeather" Content="Get Weather" HorizontalAlignment="Left" Margin="276,347,0,0" VerticalAlignment="Top" Width="453" Height="47" FontSize="24" Click="BtnGetWeather_Click"/>
+        <Label Content="Temperature:" x:Name="lblTemperature" HorizontalAlignment="Left" Margin="25,88,0,0" VerticalAlignment="Top"  Width="516" Height="59" FontSize="36"/>
+        <Label Content="Humidity:" x:Name="lblHumidity" HorizontalAlignment="Left" Margin="25,152,0,0" VerticalAlignment="Top"  Width="516" Height="59" FontSize="36"/>
+        <Label Content="WindSpeed:" x:Name="lblWindSpeed" HorizontalAlignment="Left" Margin="25,211,0,0" VerticalAlignment="Top"  Width="516" Height="59" FontSize="36"/>
+        <Label Content="Date Time:" x:Name="lblDateTime" HorizontalAlignment="Left" Margin="25,270,0,0" VerticalAlignment="Top"  Width="516" Height="59" FontSize="36"/>
+        <Image x:Name="imageWeatherPanel"  HorizontalAlignment="Left" Height="223" Margin="527,47,0,0" VerticalAlignment="Top" Width="223" RenderTransformOrigin="0.5,0.5"/>
+
+    </Grid>
+</Window>
