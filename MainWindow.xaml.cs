@@ -47,7 +47,7 @@ namespace XyrilleAnnMamalateoWeatherPanel
             BitmapImage bi = new BitmapImage();
             // BitmapImage.UriSource must be in a BeginInit/EndInit block.
             bi.BeginInit();
-            bi.UriSource = new Uri(@"/Images/xyrille.jpg" , UriKind.RelativeOrAbsolute);
+            bi.UriSource = new Uri(@"/Images/images.jpg" , UriKind.RelativeOrAbsolute);
             bi.EndInit();
 
             // Set the image source.
